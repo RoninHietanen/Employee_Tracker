@@ -21,6 +21,8 @@ Node.js isntalled.
 
 Gitbash installed.
 
+MySQL installed.
+
 ## How to install
 
 *Instructions*
@@ -31,12 +33,15 @@ Gitbash installed.
 4. The next command will be `npm i inquirer --save`
 5. The next command will be `npm i sequelize --save`
 6. The next command will be `npm i dotenv --save`
-7. You will then need to navigate to the file and create a .env file like the following and save it:
+7. navigate to the db folder and run `mysql -u root -p`
+8. run SOURCE schema.sql (optional also run `SOURCE seeds.sql` after)
+9. exit out of mySQL and navigate back into the root foler
+10. You will then need to navigate to the file in file explorer and create a .env file like the following and save it:
     DB_NAME=employees
     DB_PASS=!Dancinginthework43
     DB_USER=root
-8. Then input the command `node index` and a set of questions will appear.
-9. You will then be able to navigate through the prompts to add and change employees and departments as you feel fit.
+11. Then input the command `node index` and a set of questions will appear.
+12. You will then be able to navigate through the prompts to add and change employees and departments as you feel fit.
 ```
 
 ## Key Technologies Used
