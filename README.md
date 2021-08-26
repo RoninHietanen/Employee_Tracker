@@ -21,22 +21,40 @@ Node.js isntalled.
 
 Gitbash installed.
 
+MySQL installed.
+
 ## How to install
 
 *Instructions*
 ```md
-1. Fork the repository.
-2. Clone the repository to your computer.
-3. In the Employee_Tracker folder use the following command `npm init -y`
-4. The next command will be `npm i inquirer --save`
-5. The next command will be `npm i sequelize --save`
-6. The next command will be `npm i dotenv --save`
-7. You will then need to navigate to the file and create a .env file like the following and save it:
+1. Fork the repository
+2. Clone the repository to your computer
+3. Navigate into the Employee_Tracker folder
+4. In the Employee_Tracker folder use the following command `npm install`
+5. The next command will be `npm init -y`
+        if after completing this command you see: 
+          "dependencies": {
+          "console.table": "^0.10.0",
+          "dotenv": "^10.0.0",
+          "inquirer": "^8.1.2",
+          "mysql2": "^2.3.0",
+          "sequelize": "^6.6.5"
+          }
+        Skip to 11 otherwise continue from 6
+6. The next command will be `npm i console.table --save`
+7. The next command will be `npm i inquirer --save`
+8. The next command will be `npm i sequelize --save`
+9. The next command will be `npm i dotenv --save`
+10. The next command will be `npm i mysql2 --save`
+11. navigate to the db folder and run `mysql -u root -p` and login
+12. run SOURCE schema.sql (optional also run `SOURCE seeds.sql` after)
+13. exit out of mySQL and navigate back into the root foler
+14. You will then need to navigate to the file in file explorer and create a .env file like the following and save it:
     DB_NAME=employees
     DB_PASS=!Dancinginthework43
     DB_USER=root
-8. Then input the command `node index` and a set of questions will appear.
-9. You will then be able to navigate through the prompts to add and change employees and departments as you feel fit.
+15. Then input the command `node index` and a set of questions will appear.
+16. You will then be able to navigate through the prompts to add and change employees and departments as you feel fit.
 ```
 
 ## Key Technologies Used
