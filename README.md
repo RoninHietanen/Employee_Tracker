@@ -46,7 +46,7 @@ MySQL installed.
 8. The next command will be `npm i sequelize --save`
 9. The next command will be `npm i dotenv --save`
 10. The next command will be `npm i mysql2 --save`
-11. navigate to the db folder and run `mysql -u root -p`
+11. navigate to the db folder and run `mysql -u root -p` and login
 12. run SOURCE schema.sql (optional also run `SOURCE seeds.sql` after)
 13. exit out of mySQL and navigate back into the root foler
 14. You will then need to navigate to the file in file explorer and create a .env file like the following and save it:
