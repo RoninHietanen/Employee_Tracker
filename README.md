@@ -57,6 +57,12 @@ MySQL installed.
 16. You will then be able to navigate through the prompts to add and change employees and departments as you feel fit.
 ```
 
+*The following video is a visual representation of how to install and use the Team Profile Generator:*
+
+[How to install](https://youtu.be/T9FQ4aUUi6k)
+
+
+
 ## Key Technologies Used
 
 **Node.js**
