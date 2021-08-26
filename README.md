@@ -40,7 +40,7 @@ MySQL installed.
           "mysql2": "^2.3.0",
           "sequelize": "^6.6.5"
           }
-        Skip to 10 otherwise continue from 6
+        Skip to 11 otherwise continue from 6
 6. The next command will be `npm i console.table --save`
 7. The next command will be `npm i inquirer --save`
 8. The next command will be `npm i sequelize --save`
