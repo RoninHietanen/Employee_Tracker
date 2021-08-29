@@ -1,7 +1,7 @@
 {
   "name": "Employee_Tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description ```md The Employee_Tracker allows a person to monitor and edit all department and employee roles in their company. ```",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,5 +23,6 @@
     "inquirer": "^8.1.2",
     "mysql2": "^2.3.0",
     "sequelize": "^6.6.5"
-  }
+  },
+  "devDependencies": {}
 }
