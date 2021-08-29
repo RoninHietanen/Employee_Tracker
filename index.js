@@ -1,4 +1,5 @@
 const { prompt } = require("inquirer");
+const consoleTable = require("console.table");
 const db = require("./db");
 
 function init() {
@@ -26,11 +27,10 @@ function Initial() {
           "Remove Department",
           "Quit",
         ],
+        value: "choice",
         name: "choice"
       }
-    ]).then(function(res) {
-      let choice = res.choice;
-
+    ]).then(function(choice) {
       if (choice === "View All Employees") {
         db.AllEmployees()
         .then(([rows]) => {
