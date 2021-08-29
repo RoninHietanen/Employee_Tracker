@@ -50,9 +50,9 @@ MySQL installed.
 12. run SOURCE schema.sql
 13. exit out of mySQL and navigate back into the root foler
 14. You will then need to navigate to the file in file explorer and create a .env file like the following and save it:
-    DB_NAME=employees
-    DB_PASS=
-    DB_USER=root
+    DB_NAME='employees'
+    DB_PASSWORD=''
+    DB_USER='root'
 15. Then input the command `node index` and a set of questions will appear.
 16. You will then be able to navigate through the prompts to add and change employees and departments as you feel fit.
 ```
