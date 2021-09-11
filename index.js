@@ -1,6 +1,7 @@
 const { prompt } = require("inquirer");
 const consoleTable = require("console.table");
 const db = require("./db");
+const connection = require('./config/connection');
 
 function init() {
   Initial();
