@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/RoninHietanen/Employee_Tracker#readme",
   "dependencies": {
-
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.4",
+    "mysql2": "^2.3.0"
   },
   "devDependencies": {}
 }
