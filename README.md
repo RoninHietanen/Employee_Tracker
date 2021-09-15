@@ -35,26 +35,19 @@ MySQL installed.
         if after completing this command you see: 
           "dependencies": {
           "console.table": "^0.10.0",
-          "dotenv": "^10.0.0",
           "inquirer": "^8.1.2",
           "mysql2": "^2.3.0",
-          "sequelize": "^6.6.5"
           }
-        Skip to 11 otherwise continue from 6
+        Skip to 9 otherwise continue from 6
 6. The next command will be `npm i console.table --save`
 7. The next command will be `npm i inquirer --save`
-8. The next command will be `npm i sequelize --save`
-9. The next command will be `npm i dotenv --save`
-10. The next command will be `npm i mysql2 --save`
-11. navigate to the db folder and run `mysql -u root -p` and login
-12. run SOURCE schema.sql
-13. exit out of mySQL and navigate back into the root foler
-14. You will then need to navigate to the file in file explorer and create a .env file like the following and save it:
-    DB_NAME='employees'
-    DB_PASSWORD=''
-    DB_USER='root'
-15. Then input the command `node index` and a set of questions will appear.
-16. You will then be able to navigate through the prompts to add and change employees and departments as you feel fit.
+8. The next command will be `npm i mysql2 --save`
+9. navigate to the db folder and run `mysql -u root -p` and login
+10. run SOURCE schema.sql
+11. exit out of mySQL and navigate back into the root foler
+12. You will then need to navigate to the config in file explorer and enter the connection.js file and add your password to the password section and save it:
+13. Then input the command `node index` and a set of questions will appear.
+14. You will then be able to navigate through the prompts to add and change employees and departments as you feel fit.
 ```
 
 *The following video is a visual representation of how to install and use the Team Profile Generator:*
@@ -73,14 +66,6 @@ Node.js is an open-source, cross-platform, back-end JavaScript runtime environme
 
 JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled,
 and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
-
-**Sequelize**
-
-Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.
-
-**Dotenv**
-
-Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env. Storing configuration in the environment separate from code is based on The Twelve-Factor App methodology.
 
 **Inquirer**
 
