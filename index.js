@@ -1,12 +1,19 @@
-const { prompt } = require("inquirer");
+const inquirer = require("inquirer");
 const consoleTable = require("console.table");
 const connection = require("./config/connection")
 
 const roleArr = [];
 const managersArr = [];
 
+connection.connect((err) => {
+  if (err) throw err;
+
+  Initial();
+});
+
+
 function Initial() {
-  prompt([
+  inquirer.prompt([
     {
       type: "list",
       message: "What would you like to do?",
@@ -241,5 +248,3 @@ function addDepartment() {
     )
   })
 }
-
-Initial();
